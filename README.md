@@ -1,5 +1,5 @@
 # PSEC
-Script to extract protein sequence and calculate charge from PDB files
+Extract protein sequence and calculate charge from PDB files
 
 # PDB Sequence and Charge Calculator
 
