@@ -1,9 +1,14 @@
 # PSEC
 Extract protein sequence and calculate charge from PDB files
 
-# PDB Sequence and Charge Calculator
+# PDB Sequence Extractor & Charge Calculator (PSEC)
+PSEC is a Python-based user-interactive script designed for processing Protein Data Bank (PDB) files. It extracts protein sequences from PDB structures and calculates the net charge of biomolecules based on their amino acid composition. It can also handle post translation modifications (PTMs) while calculating the charges.
 
-This script extracts the protein sequence from a PDB file, cleans the structure to remove non-standard residues, and calculates the charge of the protein at a specified pH. It also generates a plot of charge versus pH and saves the results in a FASTA file and a charge information file.
+Key Features:
+✅ Sequence Extraction – Retrieves amino acid sequences from PDB structures.
+✅ Charge Calculation – Computes the net charge of proteins considering standard protonation states.
+✅ PDB Cleaning – Removes non-standard residues and extracts relevant structural information.
+✅ Easy to Use – Lightweight script with minimal dependencies, designed for computational biochemistry workflows.
 
 # Requirements
 
